@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">Shopping List</string>
+    <string name="foodLabel">Food and Drink</string>
+    <string name="clothingLabel">Clothing, Shoes, and Accessories</string>
+    <string name="electronicsLabel">Electronics</string>
+    <string name="sportsLabel">Sports and Outdoors Items</string>
+    <string name="householdLabel">Household Items</string>
+    <string name="miscLabel">Miscellaneous</string>
+    <string name="itemNoNameError">The item must have a name</string>
+    <string name="itemNoPriceError">"Please provide an estimated price for the object "</string>
+    <string name="priceCurrency">" Ft"</string>
+    <string-array name="categories_array">
+        <item>Food and Drink</item>
+        <item>Clothing, Shoes, and Accessories</item>
+        <item>Electronics</item>
+        <item>Sports and Outdoors Items</item>
+        <item>Household Items</item>
+        <item>Miscellaneous</item>
+    </string-array>
+</resources>

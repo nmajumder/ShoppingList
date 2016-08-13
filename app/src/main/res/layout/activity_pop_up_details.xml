@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/layoutContent"
+    android:layout_width="300dp"
+    android:layout_height="300dp">
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:layout_marginRight="10dp"
+    android:orientation="vertical"
+    tools:context="hu.ait.android.shoppinglist.PopUpDetailsActivity">
+
+    <LinearLayout
+        android:id="@+id/popupTitleBar"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:orientation="horizontal">
+        <ImageView
+            android:id="@+id/popupActivityIcon"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:paddingTop="8dp"
+            android:paddingBottom="8dp" />
+        <TextView
+            android:id="@+id/popupActivityTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="10dp"
+            android:gravity="center"
+            android:textSize="20sp"
+            android:textColor="#000000"
+            android:textStyle="bold"
+            android:text="category title"/>
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/popupActivityName"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:paddingLeft="4dp"
+        android:gravity="center_vertical"
+        android:textStyle="bold"
+        android:textSize="18sp"
+        android:text="item name"/>
+    <TextView
+        android:id="@+id/popupActivityDescription"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:paddingLeft="4dp"
+        android:gravity="center_vertical"
+        android:textSize="18sp"
+        android:text="item description"/>
+    <TextView
+        android:id="@+id/popupActivityPrice"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:paddingLeft="4dp"
+        android:gravity="center_vertical"
+        android:textSize="18sp"
+        android:text="item price"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:orientation="horizontal"
+        android:layout_marginTop="15dp"
+        android:weightSum="2">
+
+        <Button
+            android:id="@+id/popupBackBtn"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_marginRight="3dp"
+            android:layout_weight="1"
+            android:text="Back"/>
+        <Button
+            android:id="@+id/popupEditBtn"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="3dp"
+            android:layout_weight="1"
+            android:text="Edit"/>
+    </LinearLayout>
+
+
+</LinearLayout>
+</ScrollView>
